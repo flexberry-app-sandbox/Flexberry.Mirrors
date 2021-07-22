@@ -28,18 +28,18 @@ export default Controller.extend({
             link: 'i-i-s-mirrors-person-l',
             caption: i18n.t('forms.application.sitemap.mirrors.i-i-s-mirrors-person-l.caption'),
             title: i18n.t('forms.application.sitemap.mirrors.i-i-s-mirrors-person-l.title'),
-            icon: 'building',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-mirrors-mirror-type-l',
             caption: i18n.t('forms.application.sitemap.mirrors.i-i-s-mirrors-mirror-type-l.caption'),
             title: i18n.t('forms.application.sitemap.mirrors.i-i-s-mirrors-mirror-type-l.title'),
-            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-mirrors-mirror-l',
             caption: i18n.t('forms.application.sitemap.mirrors.i-i-s-mirrors-mirror-l.caption'),
             title: i18n.t('forms.application.sitemap.mirrors.i-i-s-mirrors-mirror-l.title'),
+            icon: 'edit',
             children: null
           }]
         }
