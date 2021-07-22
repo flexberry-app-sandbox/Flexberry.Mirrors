@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "MirrorType",
+      "projection": "MirrorTypeL",
+      "detailModelName": null
+    },
+    {
+      "master": "person",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "Owners.Person",
+      "projection": "PersonL",
+      "detailModelName": "i-i-s-mirrors-mirror-owner"
+    }
+  ],
+  "external": false,
+  "caption": "Mirror",
+  "name": "IISMirrorsMirrorE",
+  "className": "MirrorE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mirrors-mirror",
+      "modelProjection": "MirrorE"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Person",
+  "name": "IISMirrorsPersonE",
+  "className": "PersonE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mirrors-person",
+      "modelProjection": "PersonE"
+    }
+  ]
+}

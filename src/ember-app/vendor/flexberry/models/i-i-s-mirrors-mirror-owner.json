@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISMirrorsMirrorOwner",
+  "modelName": "i-i-s-mirrors-mirror-owner",
+  "className": "MirrorOwner",
+  "nameSpace": "IIS.Mirrors",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "buyDate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "person",
+      "relatedTo": "i-i-s-mirrors-person",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "mirror",
+      "relatedTo": "i-i-s-mirrors-mirror",
+      "inverse": "owners"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "MirrorOwnerE",
+      "modelName": "i-i-s-mirrors-mirror-owner",
+      "attrs": [
+        {
+          "name": "buyDate",
+          "caption": "Buy date",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Person",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Person",
+          "name": "person",
+          "relatedTo": "i-i-s-mirrors-person",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

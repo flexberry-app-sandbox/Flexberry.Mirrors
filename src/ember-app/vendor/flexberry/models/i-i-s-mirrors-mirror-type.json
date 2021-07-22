@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISMirrorsMirrorType",
+  "modelName": "i-i-s-mirrors-mirror-type",
+  "className": "MirrorType",
+  "nameSpace": "IIS.Mirrors",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "MirrorTypeE",
+      "modelName": "i-i-s-mirrors-mirror-type",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "MirrorTypeL",
+      "modelName": "i-i-s-mirrors-mirror-type",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

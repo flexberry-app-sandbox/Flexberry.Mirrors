@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-mirrors-person-e",
+  "editForm": "i-i-s-mirrors-person-e",
+  "external": false,
+  "caption": "Person",
+  "name": "IISMirrorsPersonL",
+  "className": "PersonL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mirrors-person",
+      "modelProjection": "PersonL"
+    }
+  ]
+}

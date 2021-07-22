@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Mirrors",
+  "applicationTitle": "Mirrors",
+  "items": [
+    {
+      "link": null,
+      "menuName": "mirrors",
+      "caption": "Mirrors",
+      "title": "Mirrors",
+      "children": [
+        {
+          "link": "i-i-s-mirrors-person-l",
+          "menuName": null,
+          "caption": "Person",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-mirrors-mirror-type-l",
+          "menuName": null,
+          "caption": "Mirror type",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-mirrors-mirror-l",
+          "menuName": null,
+          "caption": "Mirror",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

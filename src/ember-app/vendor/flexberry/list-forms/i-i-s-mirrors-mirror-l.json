@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-mirrors-mirror-e",
+  "editForm": "i-i-s-mirrors-mirror-e",
+  "external": false,
+  "caption": "Mirror",
+  "name": "IISMirrorsMirrorL",
+  "className": "MirrorL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mirrors-mirror",
+      "modelProjection": "MirrorL"
+    }
+  ]
+}

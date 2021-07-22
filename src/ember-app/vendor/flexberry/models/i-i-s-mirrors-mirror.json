@@ -1,0 +1,120 @@
+﻿{
+  "name": "IISMirrorsMirror",
+  "modelName": "i-i-s-mirrors-mirror",
+  "className": "Mirror",
+  "nameSpace": "IIS.Mirrors",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "serialNumber",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": false,
+      "name": "mirrorType",
+      "relatedTo": "i-i-s-mirrors-mirror-type",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "owners",
+      "relatedTo": "i-i-s-mirrors-mirror-owner",
+      "inverse": "mirror"
+    }
+  ],
+  "projections": [
+    {
+      "name": "MirrorE",
+      "modelName": "i-i-s-mirrors-mirror",
+      "attrs": [
+        {
+          "name": "serialNumber",
+          "caption": "Serial number",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "MirrorType",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Mirror type",
+          "name": "mirrorType",
+          "relatedTo": "i-i-s-mirrors-mirror-type",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "MirrorOwnerE",
+          "caption": "Owners",
+          "name": "owners",
+          "relatedTo": "i-i-s-mirrors-mirror-owner",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "MirrorL",
+      "modelName": "i-i-s-mirrors-mirror",
+      "attrs": [
+        {
+          "name": "serialNumber",
+          "caption": "Serial number",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "MirrorType",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Name",
+          "name": "mirrorType",
+          "relatedTo": "i-i-s-mirrors-mirror-type",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
