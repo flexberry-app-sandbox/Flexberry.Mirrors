@@ -77,7 +77,10 @@
     <Reference Include="System.EnterpriseServices">
       <HintPath>System.EnterpriseServices</HintPath>
     </Reference>
-
+    <ProjectReference Include="../Objects/Mirrors.Objects.csproj">
+      <Project>{330964a9-ee87-47f5-a3eb-bff2d8525aff}</Project>
+      <Name>Mirrors.Objects</Name>
+    </ProjectReference>
     <Reference Include="log4net">
       <HintPath>../packages/log4net.2.0.12/lib/net45/log4net.dll</HintPath>
     </Reference>
@@ -213,10 +216,6 @@
     <Reference Include="Unity.AspNet.WebApi">
       <HintPath>../packages/Unity.AspNet.WebApi.5.11.2/lib/net45/Unity.AspNet.WebApi.dll</HintPath>
     </Reference>
-    <ProjectReference Include="../Objects/Mirrors.Objects.csproj">
-      <Project>{330964a9-ee87-47f5-a3eb-bff2d8525aff}</Project>
-      <Name>Mirrors.Objects</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties/AssemblyInfo.cs" />
