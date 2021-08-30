@@ -15,17 +15,17 @@ namespace IIS.Mirrors
     using ICSSoft.STORMNET;
     
     
-    //  *** Start programmer edit section *** (Using statements)
+    // *** Start programmer edit section *** (Using statements)
 
-    //  *** End programmer edit section *** (Using statements)
+    // *** End programmer edit section *** (Using statements)
 
 
     /// <summary>
     /// Mirror.
     /// </summary>
-    //  *** Start programmer edit section *** (Mirror CustomAttributes)
+    // *** Start programmer edit section *** (Mirror CustomAttributes)
 
-    //  *** End programmer edit section *** (Mirror CustomAttributes)
+    // *** End programmer edit section *** (Mirror CustomAttributes)
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("MirrorE", new string[] {
@@ -48,106 +48,106 @@ namespace IIS.Mirrors
         
         private IIS.Mirrors.DetailArrayOfMirrorOwner fOwners;
         
-        //  *** Start programmer edit section *** (Mirror CustomMembers)
+        // *** Start programmer edit section *** (Mirror CustomMembers)
 
-        //  *** End programmer edit section *** (Mirror CustomMembers)
+        // *** End programmer edit section *** (Mirror CustomMembers)
 
         
         /// <summary>
         /// SerialNumber.
         /// </summary>
-        //  *** Start programmer edit section *** (Mirror.SerialNumber CustomAttributes)
+        // *** Start programmer edit section *** (Mirror.SerialNumber CustomAttributes)
 
-        //  *** End programmer edit section *** (Mirror.SerialNumber CustomAttributes)
+        // *** End programmer edit section *** (Mirror.SerialNumber CustomAttributes)
         [StrLen(255)]
         public virtual string SerialNumber
         {
             get
             {
-                //  *** Start programmer edit section *** (Mirror.SerialNumber Get start)
+                // *** Start programmer edit section *** (Mirror.SerialNumber Get start)
 
-                //  *** End programmer edit section *** (Mirror.SerialNumber Get start)
+                // *** End programmer edit section *** (Mirror.SerialNumber Get start)
                 string result = this.fSerialNumber;
-                //  *** Start programmer edit section *** (Mirror.SerialNumber Get end)
+                // *** Start programmer edit section *** (Mirror.SerialNumber Get end)
 
-                //  *** End programmer edit section *** (Mirror.SerialNumber Get end)
+                // *** End programmer edit section *** (Mirror.SerialNumber Get end)
                 return result;
             }
             set
             {
-                //  *** Start programmer edit section *** (Mirror.SerialNumber Set start)
+                // *** Start programmer edit section *** (Mirror.SerialNumber Set start)
 
-                //  *** End programmer edit section *** (Mirror.SerialNumber Set start)
+                // *** End programmer edit section *** (Mirror.SerialNumber Set start)
                 this.fSerialNumber = value;
-                //  *** Start programmer edit section *** (Mirror.SerialNumber Set end)
+                // *** Start programmer edit section *** (Mirror.SerialNumber Set end)
 
-                //  *** End programmer edit section *** (Mirror.SerialNumber Set end)
+                // *** End programmer edit section *** (Mirror.SerialNumber Set end)
             }
         }
         
         /// <summary>
         /// Mirror.
         /// </summary>
-        //  *** Start programmer edit section *** (Mirror.MirrorType CustomAttributes)
+        // *** Start programmer edit section *** (Mirror.MirrorType CustomAttributes)
 
-        //  *** End programmer edit section *** (Mirror.MirrorType CustomAttributes)
+        // *** End programmer edit section *** (Mirror.MirrorType CustomAttributes)
         public virtual IIS.Mirrors.MirrorType MirrorType
         {
             get
             {
-                //  *** Start programmer edit section *** (Mirror.MirrorType Get start)
+                // *** Start programmer edit section *** (Mirror.MirrorType Get start)
 
-                //  *** End programmer edit section *** (Mirror.MirrorType Get start)
+                // *** End programmer edit section *** (Mirror.MirrorType Get start)
                 IIS.Mirrors.MirrorType result = this.fMirrorType;
-                //  *** Start programmer edit section *** (Mirror.MirrorType Get end)
+                // *** Start programmer edit section *** (Mirror.MirrorType Get end)
 
-                //  *** End programmer edit section *** (Mirror.MirrorType Get end)
+                // *** End programmer edit section *** (Mirror.MirrorType Get end)
                 return result;
             }
             set
             {
-                //  *** Start programmer edit section *** (Mirror.MirrorType Set start)
+                // *** Start programmer edit section *** (Mirror.MirrorType Set start)
 
-                //  *** End programmer edit section *** (Mirror.MirrorType Set start)
+                // *** End programmer edit section *** (Mirror.MirrorType Set start)
                 this.fMirrorType = value;
-                //  *** Start programmer edit section *** (Mirror.MirrorType Set end)
+                // *** Start programmer edit section *** (Mirror.MirrorType Set end)
 
-                //  *** End programmer edit section *** (Mirror.MirrorType Set end)
+                // *** End programmer edit section *** (Mirror.MirrorType Set end)
             }
         }
         
         /// <summary>
         /// Mirror.
         /// </summary>
-        //  *** Start programmer edit section *** (Mirror.Owners CustomAttributes)
+        // *** Start programmer edit section *** (Mirror.Owners CustomAttributes)
 
-        //  *** End programmer edit section *** (Mirror.Owners CustomAttributes)
+        // *** End programmer edit section *** (Mirror.Owners CustomAttributes)
         public virtual IIS.Mirrors.DetailArrayOfMirrorOwner Owners
         {
             get
             {
-                //  *** Start programmer edit section *** (Mirror.Owners Get start)
+                // *** Start programmer edit section *** (Mirror.Owners Get start)
 
-                //  *** End programmer edit section *** (Mirror.Owners Get start)
+                // *** End programmer edit section *** (Mirror.Owners Get start)
                 if ((this.fOwners == null))
                 {
                     this.fOwners = new IIS.Mirrors.DetailArrayOfMirrorOwner(this);
                 }
                 IIS.Mirrors.DetailArrayOfMirrorOwner result = this.fOwners;
-                //  *** Start programmer edit section *** (Mirror.Owners Get end)
+                // *** Start programmer edit section *** (Mirror.Owners Get end)
 
-                //  *** End programmer edit section *** (Mirror.Owners Get end)
+                // *** End programmer edit section *** (Mirror.Owners Get end)
                 return result;
             }
             set
             {
-                //  *** Start programmer edit section *** (Mirror.Owners Set start)
+                // *** Start programmer edit section *** (Mirror.Owners Set start)
 
-                //  *** End programmer edit section *** (Mirror.Owners Set start)
+                // *** End programmer edit section *** (Mirror.Owners Set start)
                 this.fOwners = value;
-                //  *** Start programmer edit section *** (Mirror.Owners Set end)
+                // *** Start programmer edit section *** (Mirror.Owners Set end)
 
-                //  *** End programmer edit section *** (Mirror.Owners Set end)
+                // *** End programmer edit section *** (Mirror.Owners Set end)
             }
         }
         

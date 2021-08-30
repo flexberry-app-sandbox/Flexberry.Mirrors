@@ -77,8 +77,8 @@
     <Reference Include="System.EnterpriseServices">
       <HintPath>System.EnterpriseServices</HintPath>
     </Reference>
-    <ProjectReference Include="../../../src/Mirrors/Objects/Mirrors.Objects.csproj">
-      <Project>{850e1634-61d1-4194-a8a3-4237eb4a2f48}</Project>
+    <ProjectReference Include="../Objects/Mirrors.Objects.csproj">
+      <Project>{330964a9-ee87-47f5-a3eb-bff2d8525aff}</Project>
       <Name>Mirrors.Objects</Name>
     </ProjectReference>
     <Reference Include="log4net">

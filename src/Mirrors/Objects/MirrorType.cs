@@ -15,17 +15,17 @@ namespace IIS.Mirrors
     using ICSSoft.STORMNET;
     
     
-    //  *** Start programmer edit section *** (Using statements)
+    // *** Start programmer edit section *** (Using statements)
 
-    //  *** End programmer edit section *** (Using statements)
+    // *** End programmer edit section *** (Using statements)
 
 
     /// <summary>
     /// Mirror type.
     /// </summary>
-    //  *** Start programmer edit section *** (MirrorType CustomAttributes)
+    // *** Start programmer edit section *** (MirrorType CustomAttributes)
 
-    //  *** End programmer edit section *** (MirrorType CustomAttributes)
+    // *** End programmer edit section *** (MirrorType CustomAttributes)
     [AutoAltered()]
     [Caption("Mirror type")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
@@ -38,40 +38,40 @@ namespace IIS.Mirrors
         
         private string fName;
         
-        //  *** Start programmer edit section *** (MirrorType CustomMembers)
+        // *** Start programmer edit section *** (MirrorType CustomMembers)
 
-        //  *** End programmer edit section *** (MirrorType CustomMembers)
+        // *** End programmer edit section *** (MirrorType CustomMembers)
 
         
         /// <summary>
         /// Name.
         /// </summary>
-        //  *** Start programmer edit section *** (MirrorType.Name CustomAttributes)
+        // *** Start programmer edit section *** (MirrorType.Name CustomAttributes)
 
-        //  *** End programmer edit section *** (MirrorType.Name CustomAttributes)
+        // *** End programmer edit section *** (MirrorType.Name CustomAttributes)
         [StrLen(255)]
         public virtual string Name
         {
             get
             {
-                //  *** Start programmer edit section *** (MirrorType.Name Get start)
+                // *** Start programmer edit section *** (MirrorType.Name Get start)
 
-                //  *** End programmer edit section *** (MirrorType.Name Get start)
+                // *** End programmer edit section *** (MirrorType.Name Get start)
                 string result = this.fName;
-                //  *** Start programmer edit section *** (MirrorType.Name Get end)
+                // *** Start programmer edit section *** (MirrorType.Name Get end)
 
-                //  *** End programmer edit section *** (MirrorType.Name Get end)
+                // *** End programmer edit section *** (MirrorType.Name Get end)
                 return result;
             }
             set
             {
-                //  *** Start programmer edit section *** (MirrorType.Name Set start)
+                // *** Start programmer edit section *** (MirrorType.Name Set start)
 
-                //  *** End programmer edit section *** (MirrorType.Name Set start)
+                // *** End programmer edit section *** (MirrorType.Name Set start)
                 this.fName = value;
-                //  *** Start programmer edit section *** (MirrorType.Name Set end)
+                // *** Start programmer edit section *** (MirrorType.Name Set end)
 
-                //  *** End programmer edit section *** (MirrorType.Name Set end)
+                // *** End programmer edit section *** (MirrorType.Name Set end)
             }
         }
         
