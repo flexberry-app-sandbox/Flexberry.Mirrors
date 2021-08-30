@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{850E1634-61D1-4194-A8A3-4237EB4A2F48}</ProjectGuid>
+    <ProjectGuid>{330964A9-EE87-47F5-A3EB-BFF2D8525AFF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IIS.Mirrors</RootNamespace>
@@ -16,20 +16,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin/Debug\</OutputPath>
+    <OutputPath>bin/Debug</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin/Debug\/Mirrors.Objects.xml</DocumentationFile>
+    <DocumentationFile>bin/Debug/Mirrors.Objects.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin/Release\</OutputPath>
+    <OutputPath>bin/Release</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin/Release\/Mirrors.Objects.xml</DocumentationFile>
+    <DocumentationFile>bin/Release/Mirrors.Objects.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
@@ -115,7 +115,6 @@
     <Compile Include="MirrorOwner.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Properties/AssemblyInfo.cs" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

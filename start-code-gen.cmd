@@ -1,0 +1,1 @@
+docker run --name codegen -ti --rm -v %cd%:/src flexberry/mono-codegen bash /src/generate-code.sh
